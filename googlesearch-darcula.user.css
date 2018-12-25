@@ -1,0 +1,286 @@
+/* ==UserStyle==
+@name           Google Search Darcula
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@description    IntelliJ's Darcula theme applied to Google Search Results
+@author         Weikardzaena
+@license        Apache 2.0
+@advanced color gray-primary "Primary Gray color" #2a2a2a
+@advanced color gray-secondary "Gray accent" #323232
+@advanced color gray-middle "Middle Gray color" #808080
+@advanced color green-primary "Primary Green color" #77c256
+@advanced color green-subtle "Subtle Green color" #77c25633
+@advanced color orange-primary "Primary Orange color" #cc7832
+@advanced color orange-secondary "Orange accent" #febb5b
+@advanced color purple-primary "Primary Purple color" #9775aa
+@advanced color red-primary "Primary Red color" #bc3e3c
+@advanced color silver-primary "Primary Silver color" #a8b7c8
+@advanced color silver-subtle "Primary Silver color with transparency" #a8b7c8cc
+@advanced color yellow-primary "Primary Yellow color" #ffc66d
+==/UserStyle== */
+@-moz-document domain("google.com") {
+
+    /********/
+    /* CORE */
+    /********/
+    html,
+    body {
+        background-color: /*[[gray-primary]]*/
+        !important;
+    }
+
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    a,
+    .flt,
+    .wUrVib,
+    .EZRelc,
+    .xXEKkb,
+    a:link,
+    a.mblink,
+    a.flt,
+    a.fl:link,
+    .fl a,
+    .gl a:link,
+    .mblink b {
+        color: /*[[orange-primary]]*/
+        !important;
+    }
+
+    .hdtbItm label:hover,
+    .hdtbItm a:hover,
+    #hdtb-more-mn a:hover,
+    #hdtb .hdtb-mitem a:hover,
+    .hdtb-mn-hd:hover,
+    #hdtb-more:hover,
+    #hdtb-tls:hover {
+        color: white !important;
+    }
+
+    a:visited,
+    a:visited h1,
+    a:visited h2,
+    a:visited h3,
+    a:visited h4,
+    a:visited h5,
+    a:visited h6 {
+        color: /*[[purple-primary]]*/
+        !important;
+    }
+
+    cite {
+        color: /*[[orange-secondary]]*/
+        !important;
+    }
+
+    /**************/
+    /* SEARCH BAR */
+    /**************/
+    .RNNXgb,
+    .aajZCb,
+    .sbibod,
+    .sbib_a {
+        background-color: /*[[gray-secondary]]*/
+        !important;
+    }
+
+    .RNNXgb {
+        border-color: /*[[gray-middle]]*/
+        !important;
+    }
+
+    .RNNXgb:hover,
+    .sbfc {
+        border-color: #00000000 !important;
+    }
+
+    /*******************/
+    /* Main Search Bar */
+    /*******************/
+    .gLFyf {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    /***********************/
+    /* Search Bar Dropdown */
+    /***********************/
+    .sbl1 {
+        color: /*[[silver-subtle]]*/
+        !important;
+    }
+
+    .sbct.sbhl {
+        background-color: /*[[green-subtle]]*/
+        !important;
+    }
+
+    /***********/
+    /* APP BAR */
+    /***********/
+    #appbar,
+    #hdtbSum,
+    .sfbgg {
+        background-color: /*[[gray-primary]]*/
+        !important;
+    }
+
+    #hdtb,
+    #hdtb-msb #hdtb-tls,
+    #hdtb .hdtb-mitem a {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    #hdtb {
+        border-bottom: 1px solid /*[[gray-middle]]*/
+        !important;
+    }
+
+    /********************/
+    /* Page/tools links */
+    /********************/
+    .cJzOGc,
+    #hdtb-msb .hdtb-mitem.hdtb-msel,
+    #hdtb-msb .hdtb-mitem.hdtb-msel-pre{
+        color: /*[[green-primary]]*/
+        !important;
+        border-bottom-color: /*[[green-primary]]*/
+        !important;
+    }
+
+    /********************/
+    /* Floating app bar */
+    /********************/
+    .minidiv .sfbg {
+        background-color: /*[[gray-primary]]*/
+        !important;
+        box-shadow: 0 1px 6px 0 #00000077 !important;
+    }
+
+    /**********************/
+    /* MAIN RESULTS - ALL */
+    /**********************/
+    .s,
+    .st,
+    .garHBe,
+    .Ss2Faf,
+    .oaSpFd,
+    .JolIg,
+    .eJ7tvc,
+    .kno-ecr-pt,
+    .gJBeNe,
+    .cwUqwd,
+    .w8qArf .fl,
+    .s .st em {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    .f,
+    .wwUB2c,
+    .kX21rb,
+    .y8Jpof .LrzXr,
+    .f a:link {
+        color: /*[[gray-middle]]*/
+        !important;
+    }
+
+    #resultsStats,
+    .P1usbc {
+        color: /*[[gray-middle]]*/
+        !important;
+    }
+
+    .kp-blk,
+    .qmv19b,
+    g-inner-card {
+        background-color: /*[[gray-secondary]]*/
+        !important;
+        border: 1px solid /*[[gray-middle]]*/
+        !important;
+    }
+    
+    .EPLo7b {
+        border-top: 1px solid /*[[gray-middle]]*/
+        !important;
+    }
+    
+    .y8Jpof:hover {
+        background-color: /*[[gray-primary]]*/
+    }
+
+    /***********************/
+    /* MAIN RESULTS - NEWS */
+    /***********************/
+    .e8fRJf, .wqg8ad {
+        color: /*[[green-primary]]*/
+        !important;
+    }
+
+    /****************************/
+    /* "Searches Related To..." */
+    /****************************/
+    #brs,
+    #brs .med {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    /**************************/
+    /* PEOPLE ALSO SEARCH FOR */
+    /**************************/
+    /* 'X' button */
+    .XCKyNd {
+        background-color: /*[[red-primary]]*/
+        !important;
+        opacity: 1;
+        padding: 8px;
+    }
+
+    /**********/
+    /* FOOTER */
+    /**********/
+    #fbar {
+        background-color: /*[[gray-secondary]]*/
+        !important;
+    }
+
+    /*****************/
+    /* Location info */
+    /*****************/
+    #swml-loc {
+        color: /*[[silver-primary]]*/
+        !important;
+    }
+
+    .smiUbb,
+    .smiUbb a,
+    #swml a {
+        color: /*[[gray-middle]]*/
+        !important;
+    }
+
+    /*******************************/
+    /* Search results page numbers */
+    /*******************************/
+    #foot #navcnt .cur {
+        color: /*[[purple-primary]]*/
+        !important;
+    }
+
+    #foot #navcnt a {
+        color: /*[[yellow-primary]]*/
+        !important;
+    }
+}
