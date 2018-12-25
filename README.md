@@ -9,4 +9,4 @@ Coming soon!  (Once I get everything mainly working)
 
 A userstyle manager like [Stylus](https://add0n.com/stylus.html) is required for your browser.
 
-Once you have a userstyle manager, click *here* (link coming soon) to install the style.  Installing with the link allows for automatic updates!
+Once you have Stylus installed, [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Weikardzaena/GoogleSearch-Darcula/master/googlesearch-darcula.user.css).  Installing with the link allows for automatic updates!
