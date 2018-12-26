@@ -23,6 +23,7 @@
 @license        Apache 2.0
 @updateURL      https://raw.githubusercontent.com/Weikardzaena/GoogleSearch-Darcula/master/googlesearch-darcula.user.css
 @advanced color gray-primary "Primary Gray color" #2a2a2a
+@advanced color gray-emphasis "Gray color for emphasis" #222222
 @advanced color gray-secondary "Gray accent" #323232
 @advanced color gray-middle "Middle Gray color" #808080
 @advanced color green-primary "Primary Green color" #77c256
@@ -98,6 +99,22 @@
     cite {
         color: /*[[orange-secondary]]*/
         !important;
+    }
+
+    /***********/
+    /* Buttons */
+    /***********/
+    .ab_button {
+        background-color: /*[[gray-secondary]]*/ !important;
+        background: -webkit-linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
+        background: -moz-linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
+        background: -o-linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
+        background: linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
+        border-color: /*[[gray-emphasis]]*/;
+    }
+
+    .ab_button:hover {
+        border-color: /*[[gray-middle]]*/ !important;
     }
 
     /**************/
