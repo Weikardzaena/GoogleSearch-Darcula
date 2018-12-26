@@ -105,6 +105,7 @@
     /* Buttons */
     /***********/
     .ab_button {
+        color: /*[[silver-primary]]*/ !important;
         background-color: /*[[gray-secondary]]*/ !important;
         background: -webkit-linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
         background: -moz-linear-gradient(top, /*[[gray-secondary]]*/, /*[[gray-primary]]*/) !important;
