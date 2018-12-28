@@ -36,7 +36,7 @@
 @advanced color silver-subtle "Primary Silver color with transparency" #a8b7c8cc
 @advanced color yellow-primary "Primary Yellow color" #ffc66d
 ==/UserStyle== */
-@-moz-document domain("google.com") {
+@-moz-document regexp("^https?:\/\/(www\.)?google\.com(?!\/maps)(?!\/flights).*") {
 
     /********/
     /* CORE */
